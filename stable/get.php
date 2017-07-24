@@ -29,7 +29,7 @@ if (!$encoder) {
 
 // Берем все данные
 
-$query = "SELECT * FROM ins_con_places WHERE 1";
+$query = "SELECT * FROM markers WHERE 1";
 $result = mysql_query($query);
 if (!$result) {
   die('Неверный запрос: ' . mysql_error());
