@@ -18,7 +18,7 @@
 
         function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
-          center: new google.maps.LatLng(58.54245,50.02106),
+          center: new google.maps.LatLng(58.54245,50.02106), // Центр карты
           zoom: 13
         });
 
