@@ -56,9 +56,8 @@
               
               // Ссылка на страницу
               var url = document.createElement('a');
-              url.textContent = 'Подробнее'
-              var slug2 = '/places/'+slug+'.html';
-              url.setAttribute('href',slug2);
+              url.textContent = 'Подробнее' // Текст ссылки
+              url.setAttribute('href',slug);
               url.setAttribute('target','_blank');
               infowincontent.appendChild(url);
               
